@@ -1,4 +1,4 @@
-name: Manual Workflow
+name: Push Events
 on:
   issues:
     types:
@@ -8,4 +8,4 @@ jobs:
     steps:
     - name: Info
       run: |
-        echo "Running Manual Tasks"
+        echo "This is a push event on all branches"
